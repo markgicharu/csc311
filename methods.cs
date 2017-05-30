@@ -11,7 +11,8 @@ namespace ConsoleApplication1
         {
           int a,b; //declare variables
           Console.WriteLine("Enter the first number");
-          a=Console.ReadLine();
+          a=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The value of a is: "+ a);
           
         }
     }
