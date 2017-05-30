@@ -9,12 +9,11 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-          int a,b; //declare variables
-          Console.WriteLine("Enter the first number");
-          a=Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("The value of a is: "+ a.ToString());
-          
+            int a, b; //declare variables
+            Console.WriteLine("Enter the first number");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The value of a is: " + a);
+
         }
     }
 }
-
