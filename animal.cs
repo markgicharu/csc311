@@ -19,13 +19,15 @@ namespace OOP
         //main method here
         static void Main(string[] args)
         {
+           
             Animal Cat = new Animal();
-            Cat.setName("Jimmy");
+            Console.WriteLine("Enter the name of the animal");
+            Cat.setName(Console.ReadLine());
             Cat.setAge(2);
             Cat.setSex("boy");
             Cat.setType("Perusian");
 
-            Console.WriteLine(Cat.getName() + " is " + Cat.getAge() + " years old and a " + Cat.getSex() + " of a " + Cat.getType() + " breed");
+            Console.WriteLine(Cat.getName() + " is " + Cat.getAge() + " years old and a " + Cat.getSex() + " of " + Cat.getType() + " breed");
         }
 
         //setter/mutator methods 
