@@ -7,12 +7,26 @@ namespace OOP
 {
     class Animal
     {
+
+
+
         //declare properties to be applied on objects
         public string sex;
         public string type;
         public int age;
         public string name;
 
+        //main method here
+        static void Main(string[] args)
+        {
+            Animal Cat = new Animal();
+            Cat.setName("Jimmy");
+            Cat.setAge(2);
+            Cat.setSex("boy");
+            Cat.setType("Perusian");
+
+            Console.WriteLine(Cat.getName() + " is " + Cat.getAge() + " years old and a " + Cat.getSex() + " of a " + Cat.getType() + " breed");
+        }
 
         //setter/mutator methods 
         public void setSex(String sex)
@@ -31,6 +45,8 @@ namespace OOP
         {
             this.name = name;
         }
+
+
         //getter methods
         public string getName()
         {
