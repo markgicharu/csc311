@@ -12,5 +12,25 @@ namespace OOP
         public string type;
         public int age;
         public string name;
+
+
+        //setter/mutator methods 
+        public void setSex(String sex)
+        {
+        this.sex = sex;
+        }
+        public void setType(String type)
+        {
+        this.type = type;
+        }
+        public void setAge(int age)
+        {
+        this.age = age;
+        }
+        public void setName(String name)
+        {
+            this.name = name;
+        }
+
     }
 }
