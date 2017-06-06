@@ -31,6 +31,30 @@ namespace OOP
         {
             this.name = name;
         }
+        //getter methods
+        public string getName()
+        {
 
+            return name;
+
+        }
+        public string getSex()
+        {
+
+            return sex;
+
+        }
+        public string getType()
+        {
+
+            return type;
+
+        }
+        public int getAge()
+        {
+
+            return age;
+
+        }
     }
 }
